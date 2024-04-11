@@ -1,0 +1,115 @@
+.dashboard {
+  height: 100%;
+  background-color: #D22B2B;
+  margin-left: auto;
+  background-image: url(https://cdn.glitch.global/6476b0f3-f2d1-4e45-8472-a31dd1e4f8f8/csun_matador_zoom_backgrounds-set1c2.jpg?v=1711490676337);
+}
+
+.navbar-image {
+  max-height: 40px; 
+}
+
+h5 {
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+}
+
+.navbar-custom {
+  background-color: #000015;
+  color: white;
+}
+
+#resource-list {
+  min-height: 100vh;
+}
+
+.big-text {
+  font-size: 70px;
+}
+
+.med-text {
+  font-size: 50px;
+}
+
+.med-label {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 25px;
+  border-radius: 60px;
+  background-color: #282a35;
+  color: white;
+}
+
+.grn-btn {
+  background-color: black;
+  color: white;
+}
+
+.grn-btn:hover {
+  background-color: #D22B2B;
+  color: white;
+}
+
+
+.container-padding {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.card {
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.569);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  font-weight: bold;
+}
+
+.cardH {
+  border-radius: 1em;
+  background-color: black;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: white;
+}
+
+.btn-primary {
+  border-radius: 1em;
+  background-color: white;
+  color: black;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+#btn-primary:hover {
+  background-color: #FF0000;
+  color: #FF0000;
+}
+
+.side-bar {
+  background-color: #880808;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 #c6d8cc;
+}
+
+.cardrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+} 
+
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dashboardStyle.css">
+  <style>
+    .navbar-image {
+      max-height: 40px; /* Adjust the maximum height as needed */
+    }
+  </style>
+</head>
+<body onload="loadAllResources()">
+  <nav class="navbar navbar-expand-lg navbar-custom navbar-dark sticky-top shadow-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-5" href="index.html"><b>CSUN GAMES ROOM</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto"> <!-- Use ml-auto to push the image to the right -->
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" href="contact.html">About</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" href="profile.html">Sign In</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active" href="profile.html">Contact Us</a>
+          </li>
+        </ul>
+        <img src="https://cdn.glitch.global/6476b0f3-f2d1-4e45-8472-a31dd1e4f8f8/csungame.png?v=1711241007037" alt="Image" class="navbar-image mr-5"> <!-- Add your image here -->
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="side-bar shadow-sm col-lg-3">
+        <div class="container grid">
+          <div class="card my-5">
+            <h5 class="card-header">Pool Tables</h5>
+            <div class="card-body">
+              <center>
+                <a href="poolTables.html" type="button" class="btn grn-btn rounded-pill shadow">Go To The Page!</a>
+              </center>
+            </div>
+          </div>
+          <div class="card my-5">
+            <h5 class="card-header">Computers</h5>
+            <div class="card-body">
+              <center>
+                <a href="computers.html" type="button" class="btn grn-btn rounded-pill shadow">Go To The Page!</a>
+              </center>
+            </div>
+          </div>
+          <div class="card my-5">
+            <h5 class="card-header">TV Stations</h5>
+            <div class="card-body">
+              <center>
+                <a href="tvStations.html" type="button" class="btn grn-btn rounded-pill shadow">Go To The Page!</a>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="dashboard col-lg-9">
+        <div class="mt-5">
+          <h1 class="med-text d-flex justify-content-center"><b>TV STATIONS!</b></h1>
+          <br>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <h5 class="card-header">TV 1</h5>
+              <div class="card-body">
+                <ul class="list-group list-group-flush" style="list-style-type:none;">
+                  <li>Time Remaining:</li>
+                  <li>User:</li>
+                  <li>Up Next:</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <h5 class="card-header">TV 2</h5>
+              <div class="card-body">
+                <ul class="list-group list-group-flush" style="list-style-type:none;">
+                  <li>Time Remaining:</li>
+                  <li>User:</li>
+                  <li>Up Next:</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <h5 class="card-header">TV 3</h5>
+              <div class="card-body">
+                <ul class="list-group list-group-flush" style="list-style-type:none;">
+                  <li>Time Remaining:</li>
+                  <li>User:</li>
+                  <li>Up Next:</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <h5 class="card-header">TV 4</h5>
+              <div class="card-body">
+                <ul class="list-group list-group-flush" style="list-style-type:none;">
+                  <li>Time Remaining:</li>
+                  <li>User:</li>
+                  <li>Up Next:</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid mt-4">
+          <div class="row justify-content-center" id="resource-list"></div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
+
